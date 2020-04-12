@@ -1,10 +1,6 @@
 # textstyle_extensions
 
-Syntactic sugar for easily modifying TextStyles.
-
-<img src="https://i.imgur.com/jAhwBGX.png" alt="" />
-
-Easily tweak TextStyles without copyWith boilerplate:
+Syntactic sugar for easily modifying TextStyles:
 ```dart
 // Do this:
 myTextStyle.bold.italic.size(16).ltrSpace(1.6)
@@ -27,7 +23,10 @@ import 'package:textstyle_extensions/textstyle_extensions.dart';
 
 ## 🕹️ Usage
 
+
 All of the TextStyle API is represented:
+<img src="https://i.imgur.com/jAhwBGX.png" alt="" />
+
 ```
 Widget build(BuildContext context) {
     Text t(String v, TextStyle t) => Text(v, style: t);
