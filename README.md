@@ -24,7 +24,8 @@ import 'package:textstyle_extensions/textstyle_extensions.dart';
 ## 🕹️ Usage
 
 
-All of the TextStyle API is represented:
+The entire TextStyle API is represented:
+
 <img src="https://i.imgur.com/jAhwBGX.png" alt="" />
 
 ```
