@@ -56,7 +56,7 @@ Widget build(BuildContext context) {
     );
   }
 ```
-Shortcut method names are introduced where it makes sense. This is done both for brevity, and to reduce conflicts with the existing TextStyle properties.
+Shortcut method names are introduced where it makes sense. This is done both for brevity, and to reduce conflicts with the underlying TextStyle properties.
 
 ## 🐞 Bugs/Requests
 
