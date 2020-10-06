@@ -5,17 +5,17 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 extension TextStyleExtensions on TextStyle {
-  /// Shortcut for light weight
-  TextStyle get light => weight(FontWeight.w200);
 
-  /// Shortcut for regular weight
+  // Weights
+  TextStyle get thin => weight(FontWeight.w100);
+  TextStyle get extraLight => weight(FontWeight.w200);
+  TextStyle get light => weight(FontWeight.w300);
   TextStyle get regular => weight(FontWeight.normal);
-
-  /// Shortcut for semibold weight
-  TextStyle get semiBold => weight(FontWeight.w500);
-
-  /// Shortcut for bold weight
-  TextStyle get bold => weight(FontWeight.bold);
+  TextStyle get medium => weight(FontWeight.w500);
+  TextStyle get semiBold => weight(FontWeight.w600);
+  TextStyle get bold => weight(FontWeight.w700);
+  TextStyle get extraBold => weight(FontWeight.w800);
+  TextStyle get black => weight(FontWeight.w900);
 
   /// Shortcut for italic
   TextStyle get italic => style(FontStyle.italic);

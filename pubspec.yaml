@@ -1,6 +1,6 @@
 name: textstyle_extensions
 description: Syntactic sugar for easily modifying TextStyles. Quickly create textStyle variants like .bold, .italic or .size().
-version: 1.0.0+2
+version: 1.1.0
 homepage: https://github.com/gskinnerTeam/flutter-textstyle-extensions
 
 environment:
